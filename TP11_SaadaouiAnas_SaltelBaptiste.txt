@@ -1,2 +1,7 @@
 SAADAOUI Anas
 SALTEL Baptiste
+
+Dans le commit de la branche "master", il n'y a que le fichier "test.txt" qui avait été ajouté.
+Ensuite, on crée la branche "mon_fichier" qui est basé sur le dernier commit de la branche "master", elle contient donc le fichier test.txt
+On ajoute avec "git add" l'autre fichier que l'on commit sur cette branche. 
+C'est pour cela que sur la branche "mon_fichier" il y a les deux fichiers, tandis que sur la branche "master" il n'y a que "test.txt" car on n'avait que lui dans le commit.
